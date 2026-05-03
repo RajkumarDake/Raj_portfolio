@@ -1,103 +1,26 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
   RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
 
+// Row 1 — widest (8)
 export const SKILL_DATA = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
+  { skill_name: "Python", image: "python.svg", width: 80, height: 80 },
+  { skill_name: "JavaScript", image: "js.png", width: 65, height: 65 },
+  { skill_name: "TypeScript", image: "ts.png", width: 80, height: 80 },
+  { skill_name: "React", image: "react.png", width: 80, height: 80 },
+  { skill_name: "Node.js", image: "node.png", width: 80, height: 80 },
+  { skill_name: "FastAPI", image: "fastapi.svg", width: 80, height: 80 },
+  { skill_name: "PostgreSQL", image: "postgresql.png", width: 70, height: 70 },
+  { skill_name: "Docker", image: "docker.png", width: 70, height: 70 },
 ] as const;
 
 export const SOCIALS = [
   {
     name: "GitHub",
     icon: RxGithubLogo,
-    link: "https://github.com",
-  },
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://www.instagram.com/rajkumar_dake/",
+    link: "https://github.com/RajkumarDake",
   },
   {
     name: "Twitter",
@@ -107,236 +30,96 @@ export const SOCIALS = [
   {
     name: "LinkedIn",
     icon: RxLinkedinLogo,
-    link: "https://linkedin.com",
+    link: "https://linkedin.com/in/rajkumar-dake",
   },
 ] as const;
 
+// Row 2 — medium (6)
 export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
+  { skill_name: "React Native", image: "reactnative.png", width: 70, height: 70 },
+  { skill_name: "Next.js", image: "next.png", width: 80, height: 80 },
+  { skill_name: "Express.js", image: "express.png", width: 80, height: 80 },
+  { skill_name: "PyTorch", image: "pytorch.svg", width: 80, height: 80 },
+  { skill_name: "MongoDB", image: "mongodb.png", width: 40, height: 40 },
+  { skill_name: "Git", image: "git.svg", width: 80, height: 80 },
 ] as const;
 
+// Row 3 — narrowest (4)
 export const BACKEND_SKILL = [
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Express.js",
-    image: "express.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
+  { skill_name: "Tailwind CSS", image: "tailwind.png", width: 80, height: 80 },
+  { skill_name: "MySQL", image: "mysql.png", width: 70, height: 70 },
+  { skill_name: "GitHub", image: "github.svg", width: 80, height: 80 },
+  { skill_name: "Linux", image: "linux.svg", width: 80, height: 80 },
 ] as const;
 
-export const FULLSTACK_SKILL = [
-  {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
+export const FULLSTACK_SKILL = [] as const;
 
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
-  },
-] as const;
-
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
+export const OTHER_SKILL = [] as const;
 
 export const PROJECTS = [
   {
-    title: "RiseInn - Resort Review Portal",
+    title: "LLM Agent Platform",
     description:
-      "Full-stack portal for users to review and rate resorts globally. Includes sentiment analysis to improve review accuracy and secure authentication/authorization with Mongoose.js and Passport.js, plus interactive Mapbox-based search.",
+      "Tool-augmented LLM agent capable of executing tasks like document search and API queries using LangChain and OpenAI APIs. Includes a RAG pipeline with FAISS vector search and embeddings for context-aware responses.",
     image: "/projects/project-1.png",
-    link: "#",
+    link: "https://github.com/RajkumarDake",
   },
   {
-    title: "SIEM-Cortex - Threat Detection",
+    title: "Multi-Agent Log Intelligence",
     description:
-      "Framework enhancing SIEM platforms via a multi-LLM pipeline with anomaly detection, threat verification, correlation, and automated alert triage to reduce false positives and response time.",
+      "Multi-agent system built with LangGraph to analyze distributed logs. Agents handle anomaly detection, root cause analysis, and incident summarization across distributed systems.",
     image: "/projects/project-2.png",
-    link: "#",
+    link: "https://github.com/RajkumarDake",
   },
   {
-    title: "Diet Recommendation System",
+    title: "MCP Server — 99acres AI Tools",
     description:
-      "Web app delivering personalized diet plans, integrating a React + Bootstrap UI with AI-powered diet recommendations and data collection for LLM-based diet strategies.",
+      "Model Context Protocol server exposing AI tools for the 99acres platform: project search, property comparison, location autocomplete, sales assistant workflows, and automated ticket classification.",
     image: "/projects/project-3.png",
-    link: "#",
+    link: "https://github.com/RajkumarDake",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Connect",
     data: [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/RajkumarDake",
+      },
+      {
+        name: "LinkedIn",
+        icon: RxLinkedinLogo,
+        link: "https://linkedin.com/in/rajkumar-dake",
       },
       {
         name: "Twitter",
         icon: RxTwitterLogo,
         link: "https://twitter.com",
       },
-      {
-        name: "LinkedIn",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
     ],
   },
   {
-    title: "About",
+    title: "Navigate",
     data: [
-      {
-        name: "About Me",
-        icon: null,
-        link: "#about-me",
-      },
-      {
-        name: "Projects",
-        icon: null,
-        link: "#projects",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:rajkumardakey831@gmail.com",
-      },
+      { name: "About Me", icon: null, link: "#about-me" },
+      { name: "Experience", icon: null, link: "#experience" },
+      { name: "Skills", icon: null, link: "#skills" },
+      { name: "Projects", icon: null, link: "#projects" },
     ],
   },
   {
     title: "Contact",
     data: [
       {
-        name: "Email: rajkumardakey831@gmail.com",
+        name: "rajkumardakey831@gmail.com",
         icon: null,
         link: "mailto:rajkumardakey831@gmail.com",
       },
       {
-        name: "Phone: +91 7569009619",
+        name: "+91 7569009619",
         icon: null,
         link: "tel:+917569009619",
       },
@@ -345,18 +128,10 @@ export const FOOTER_DATA = [
 ] as const;
 
 export const NAV_LINKS = [
-  {
-    title: "About me",
-    link: "#about-me",
-  },
-  {
-    title: "Skills",
-    link: "#skills",
-  },
-  {
-    title: "Projects",
-    link: "#projects",
-  },
+  { title: "About me", link: "#about-me" },
+  { title: "Experience", link: "#experience" },
+  { title: "Skills", link: "#skills" },
+  { title: "Projects", link: "#projects" },
 ] as const;
 
 export const LINKS = {
